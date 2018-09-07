@@ -1,0 +1,5 @@
+Crawler4j来爬取数据主要进行如下编写：
+1、编写Crawler子类，实现shouldVisit、visit方法
+    --shouldVisit：用来过滤是否需要爬取的URL
+    --visit：解析爬取完成后的Page对象
+2、编写Controller类，进行爬虫的相关配置、设置爬取的URL、启动爬虫
